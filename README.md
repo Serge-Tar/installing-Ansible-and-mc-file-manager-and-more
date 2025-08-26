@@ -1,1 +1,2 @@
-# installing-Ansible-and-mc-file-manager-and-more
+# bash скрипты всякие
+- установка Ansible и mc (файловый менеджер) и другое
