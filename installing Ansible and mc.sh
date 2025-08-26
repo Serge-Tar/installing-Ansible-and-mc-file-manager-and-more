@@ -5,10 +5,12 @@
 
 echo "Привет, запускаю скрипт"
 sudo apt update
+echo "Запускаю установку Ansible"
 sudo apt install ansible -y
-ansible --version
+mkdir ~/Ansible
+echo "Запускаю установку mc (файлового менеджера)"
 sudo apt install mc
-mkdir Ansible
-cd Ansible
+cd ~/Ansible
 echo "Установлен Ansible и файловый менеджер mc."
+ansible --version
 
