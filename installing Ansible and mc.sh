@@ -13,4 +13,4 @@ sudo apt install mc
 cd ~/Ansible
 echo "Установлен Ansible и файловый менеджер mc."
 ansible --version
-
+mc --version
