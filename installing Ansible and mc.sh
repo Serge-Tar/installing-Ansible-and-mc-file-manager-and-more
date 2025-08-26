@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# chmod +x myscript.sh делаем скрипт исполняемым
+# ./myscript.sh запускаем
+
 echo "Привет, запускаю скрипт"
 sudo apt update
 sudo apt install ansible -y
