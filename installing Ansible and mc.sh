@@ -4,7 +4,9 @@
 # ./myscript.sh запускаем
 
 echo "Привет, запускаю скрипт"
+# обновляем систему
 sudo apt update
+sudo apt upgrade
 echo "Запускаю установку Ansible"
 sudo apt install ansible -y
 mkdir ~/Ansible
